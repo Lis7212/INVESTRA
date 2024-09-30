@@ -1,0 +1,228 @@
+{
+    "intents": [
+      {
+        "intent": "stock",
+        "patterns": [
+          "Stock",
+          "Shares",
+          "Equity",
+          "Common Stock",
+          "Preferred Stock",
+          "What is a stock?",
+          "Explain stock",
+          "Stock meaning",
+          "Stock definition"
+        ],
+        "response": "A stock represents ownership in a company and constitutes a claim on part of the company’s assets and earnings. There are two main types of stock: common and preferred."
+      },
+      {
+        "intent": "mutual_fund",
+        "patterns": [
+          "Mutual Fund",
+          "Investment in mutual fund",
+          "Mutual fund definition",
+          "What is a mutual fund?",
+          "Explain mutual fund",
+          "Mutual fund meaning",
+          "Mutual fund types"
+        ],
+        "response": "A mutual fund is an investment vehicle that pools funds from many investors to purchase securities. It offers diversification and professional management."
+      },
+      {
+        "intent": "exchange_traded_fund",
+        "patterns": [
+          "Exchange Traded Fund",
+          "ETF",
+          "Investment in ETF",
+          "What is an ETF?",
+          "Explain ETF",
+          "ETF meaning",
+          "ETF definition"
+        ],
+        "response": "An ETF, or Exchange-Traded Fund, is a type of investment fund and exchange-traded product that holds assets such as stocks, commodities, or bonds."
+      },
+      {
+        "intent": "initial_public_offering",
+        "patterns": [
+          "Initial Public Offering",
+          "IPO",
+          "What is an IPO?",
+          "IPO definition",
+          "IPO meaning",
+          "Initial Public Offering (IPO)",
+          "Explain IPO"
+        ],
+        "response": "An IPO, or Initial Public Offering, is the process by which a private company offers shares to the public for the first time. It allows the company to raise capital from public investors."
+      },
+      {
+        "intent": "dividend",
+        "patterns": [
+          "Dividend",
+          "What is a dividend?",
+          "Dividend meaning",
+          "Dividend definition",
+          "Types of dividends",
+          "Dividend payments"
+        ],
+        "response": "A dividend is a portion of a company’s earnings distributed to shareholders. It is typically paid in cash or additional shares of stock and is usually declared quarterly."
+      },
+      {
+        "intent": "bonds",
+        "patterns": [
+          "Bond",
+          "Government bond",
+          "Corporate bond",
+          "What is a bond?",
+          "Bond definition",
+          "Bond meaning",
+          "Types of bonds"
+        ],
+        "response": "A bond is a fixed income instrument that represents a loan made by an investor to a borrower. Bonds are used by companies, municipalities, states, and sovereign governments to finance a variety of projects and activities."
+      },
+      {
+        "intent": "portfolio",
+        "patterns": [
+          "Investment Portfolio",
+          "Portfolio",
+          "What is a portfolio?",
+          "Portfolio definition",
+          "Portfolio meaning",
+          "Types of investment portfolios",
+          "Diversified portfolio"
+        ],
+        "response": "A portfolio is a collection of financial investments like stocks, bonds, commodities, and cash equivalents, including mutual funds and ETFs. It is managed to achieve specific investment goals."
+      },
+      {
+        "intent": "index_fund",
+        "patterns": [
+          "Index Fund",
+          "What is an index fund?",
+          "Index fund definition",
+          "Index fund meaning",
+          "Types of index funds",
+          "Explain index fund"
+        ],
+        "response": "An index fund is a type of mutual fund or ETF that aims to replicate the performance of a specific index, such as the S&P 500. It offers broad market exposure and low operating expenses."
+      },
+      {
+        "intent": "hedge_fund",
+        "patterns": [
+          "Hedge Fund",
+          "What is a hedge fund?",
+          "Hedge fund definition",
+          "Hedge fund meaning",
+          "Types of hedge funds",
+          "Hedge fund strategies"
+        ],
+        "response": "A hedge fund is an investment fund that employs various strategies to earn active return, or alpha, for its investors. Hedge funds may invest in a wide range of assets and use leverage and derivatives."
+      },
+      {
+        "intent": "real_estate_investment_trust",
+        "patterns": [
+          "Real Estate Investment Trust",
+          "REIT",
+          "What is a REIT?",
+          "REIT definition",
+          "REIT meaning",
+          "Types of REITs",
+          "Explain REIT"
+        ],
+        "response": "A Real Estate Investment Trust (REIT) is a company that owns, operates, or finances income-producing real estate. REITs provide a way for individual investors to earn a share of the income produced through commercial real estate ownership without having to buy or manage properties directly."
+      },
+      {
+        "intent": "market_capitalization",
+        "patterns": [
+          "Market Capitalization",
+          "Market Cap",
+          "What is market capitalization?",
+          "Market cap definition",
+          "Market cap meaning",
+          "Market value of a company"
+        ],
+        "response": "Market capitalization, or market cap, is the total value of a company's outstanding shares of stock. It is calculated by multiplying the share price by the number of outstanding shares."
+      },
+      {
+        "intent": "price_to_earnings_ratio",
+        "patterns": [
+          "Price to Earnings Ratio",
+          "P/E Ratio",
+          "What is the P/E ratio?",
+          "P/E ratio definition",
+          "Price to earnings ratio meaning",
+          "P/E ratio calculation"
+        ],
+        "response": "The Price to Earnings (P/E) ratio is a valuation measure calculated by dividing a company's current share price by its earnings per share (EPS). It is used to determine whether a stock is overvalued or undervalued compared to its earnings."
+      },
+      {
+        "intent": "earnings_per_share",
+        "patterns": [
+          "Earnings Per Share",
+          "EPS",
+          "What is EPS?",
+          "EPS definition",
+          "Earnings per share meaning",
+          "EPS calculation"
+        ],
+        "response": "Earnings Per Share (EPS) is a financial metric that measures the portion of a company's profit allocated to each outstanding share of common stock. It is calculated by dividing net income by the number of outstanding shares."
+      },
+      {
+        "intent": "dividend_yield",
+        "patterns": [
+          "Dividend Yield",
+          "What is dividend yield?",
+          "Dividend yield definition",
+          "Dividend yield meaning",
+          "Dividend yield calculation",
+          "How to calculate dividend yield"
+        ],
+        "response": "Dividend yield is a financial ratio that shows how much a company pays out in dividends each year relative to its stock price. It is calculated by dividing the annual dividend per share by the stock price."
+      },
+      {
+        "intent": "beta",
+        "patterns": [
+          "Beta",
+          "What is beta in finance?",
+          "Beta definition",
+          "Beta meaning",
+          "Beta coefficient",
+          "Beta calculation"
+        ],
+        "response": "Beta is a measure of a stock's volatility in relation to the overall market. A beta greater than 1 indicates that the stock is more volatile than the market, while a beta less than 1 indicates less volatility."
+      },
+      {
+        "intent": "bull_market",
+        "patterns": [
+          "Bull Market",
+          "What is a bull market?",
+          "Bull market definition",
+          "Bull market meaning",
+          "Characteristics of a bull market"
+        ],
+        "response": "A bull market refers to a financial market condition where prices are rising or are expected to rise. It is characterized by increased investor confidence and a strong upward trend in market prices."
+      },
+      {
+        "intent": "bear_market",
+        "patterns": [
+          "Bear Market",
+          "What is a bear market?",
+          "Bear market definition",
+          "Bear market meaning",
+          "Characteristics of a bear market"
+        ],
+        "response": "A bear market refers to a financial market condition where prices are falling or are expected to fall. It is characterized by decreased investor confidence and a prolonged downward trend in market prices."
+      },
+      {
+        "intent": "short_selling",
+        "patterns": [
+          "Short Selling",
+          "Short Sale",
+          "What is short selling?",
+          "Short selling definition",
+          "Short selling meaning",
+          "How does short selling work?"
+        ],
+        "response": "Short selling is an investment strategy where an investor borrows shares and sells them with the expectation that the price will fall. The investor then buys back the shares at a lower price, returns them to the lender, and profits from the difference."
+      }
+    ]
+  }
+  
